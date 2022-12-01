@@ -1,0 +1,1464 @@
+<report xmlns="http://developer.cognos.com/schemas/report/15.4/"           expressionLocale="ru" useStyleVersion="11" viewPagesAsTabs="topLeft"><!--&lt;motio-ci&gt;&lt;expected-revision value=&quot;10&quot;/&gt;&lt;change-comment&gt;&lt;![CDATA[]]&gt;&lt;/change-comment&gt;&lt;revision-type value=&quot;major&quot;/&gt;&lt;generate-test-cases&gt;false&lt;/generate-test-cases&gt;&lt;run-test-cases&gt;false&lt;/run-test-cases&gt;&lt;add-to-label&gt;undefined&lt;/add-to-label&gt;&lt;/motio-ci&gt;--><!--RSU-SPC-0093 Спецификация отчета обновлена из "http://developer.cognos.com/schemas/report/6.0/" в "http://developer.cognos.com/schemas/report/15.0/" 2019-6-13 10:16:27-->
+				<modelPath>/content/folder[@name=&apos;Приложение НИКА&apos;]/folder[@name=&apos;КО&apos;]/folder[@name=&apos;Служебные объекты&apos;]/package[@name=&apos;Макет ОАД (для запросов)&apos;]/model[@name=&apos;model&apos;]</modelPath>
+				<drillBehavior/>
+				<layouts>
+					<layout>
+						<reportPages>
+							
+						<page name="Описание">
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="pg"/>
+									</defaultStyles>
+								</style>
+								<pageBody>
+									<style>
+										<defaultStyles>
+											<defaultStyle refStyle="pb"/>
+										</defaultStyles>
+									</style>
+									<contents><table><style><defaultStyles><defaultStyle refStyle="tb"/></defaultStyles><CSS value="border-collapse:collapse;width:100%"/></style><tableRows><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Наименование отчета:</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top;width:180px"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>09. Отчет НДО для Росстата</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Дата создания:</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Октябрь 2021</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Задача:</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>http://10.1.1.58/browse/CK5DITR132-11061</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Автор:</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Скалецкий Владислав, РЦР &quot;Санкт-Петербург&quot;</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Описание:</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>09. Отчет НДО для Росстата</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top"/><defaultStyles><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell></tableCells></tableRow></tableRows></table><block>
+			<contents><textItem><dataSource><staticValue> </staticValue></dataSource></textItem></contents>
+		</block><table><style><defaultStyles><defaultStyle refStyle="tb"/></defaultStyles><CSS value="border-collapse:collapse;width:100%;border:1pt solid black"/></style><tableRows><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Дата изменения</staticValue></dataSource></textItem></contents><style><CSS value="text-align:center;vertical-align:middle"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Автор</staticValue></dataSource></textItem></contents><style><CSS value="text-align:center;vertical-align:middle"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Задача</staticValue></dataSource></textItem></contents><style><CSS value="text-align:center;vertical-align:middle"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Описание</staticValue></dataSource></textItem></contents><style><CSS value="text-align:center;vertical-align:middle"/><defaultStyles><defaultStyle refStyle="cls3"/><defaultStyle refStyle="cls1"/></defaultStyles></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>29.10.2021</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top;border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Скалецкий Владислав, РЦР &quot;Санкт-Петербург&quot;</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top;border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>http://10.1.1.58/browse/CK5DITR132-11061</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top;border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Начальная версия</staticValue></dataSource></textItem></contents><style><CSS value="vertical-align:top;border:1pt solid black"/></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>25.11.2021</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Скалецкий Владислав, РЦР &quot;Санкт-Петербург&quot;</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>http://10.1.1.58/browse/CK5DITR132-11061</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Доработки по замечаниям аналитика и заказчика</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>29.11.2021</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Скалецкий Владислав, РЦР &quot;Санкт-Петербург&quot;</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>http://10.1.1.58/browse/CK5DITR132-11061</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Доработки по замечаниям аналитика и заказчика</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>16.03.2022</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Балиев Д.В.</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>http://10.1.1.58/browse/ESPDPPKOAD-553</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Округление до десятых (для вариантов млн. млрд.)</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>18.03.2022</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Балиев Д.В.</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>http://10.1.1.58/browse/ESPDPPKOAD-554</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Доработан заголовок  в части вывода &quot;периода - года&quot;</staticValue></dataSource></textItem></contents><style><CSS value="border:1pt solid black"/></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>18.10.2022</staticValue></dataSource></textItem></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Кузнецов Н.В.</staticValue></dataSource></textItem></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell><tableCell><contents><hyperlink>
+			<dataSource>
+				<staticValue>https://jira.cbr.ru/browse/CK5DITR132-11061</staticValue>
+			</dataSource>
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>CK5DITR132-11061</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="hy"/>
+				</defaultStyles>
+			</style>
+		</hyperlink></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Устранены замечания РЦТиКК</staticValue></dataSource></textItem></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>10.11.2022</staticValue></dataSource></textItem></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Кузнецов Н.В.</staticValue></dataSource></textItem></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell><tableCell><contents><hyperlink>
+			<dataSource>
+				<staticValue>https://jira.cbr.ru/browse/CK5DITR132-13743</staticValue>
+			</dataSource>
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>CK5DITR132-13743</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="hy"/>
+				</defaultStyles>
+			</style>
+		</hyperlink></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>Добавлены территории не входящие в справочник</staticValue></dataSource></textItem></contents><style><CSS value="border:0.5pt solid black"/></style></tableCell></tableCells></tableRow></tableRows></table></contents>
+								</pageBody>
+							<conditionalRender refVariable="Не показывать"><renderFor refVariableValue="1"/></conditionalRender></page><page name="Отчет">
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="pg"/>
+									</defaultStyles>
+								</style>
+								<pageBody>
+									<style>
+										<defaultStyles>
+											<defaultStyle refStyle="pb"/>
+										</defaultStyles>
+									</style>
+									<contents><block>
+			<contents><textItem><dataSource><staticValue>Код документа 0409201+0409202.09.010208</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Дата и время формирования отчета: </staticValue></dataSource></textItem><date>
+			<style>
+				<dataFormat>
+					<dateFormat/>
+				</dataFormat>
+			</style>
+		</date><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><time>
+			<style>
+				<dataFormat>
+					<timeFormat/>
+				</dataFormat>
+			</style>
+		</time></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents/>
+		</block><block name="ЗаголовокОтчёта Блок1">
+			<contents><block>
+			<contents><textItem><dataSource><staticValue>СВОДНЫЙ ОТЧЕТ О НАЛИЧНОМ ДЕНЕЖНОМ ОБОРОТЕ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ </staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>БАНКА РОССИИ И КРЕДИТНЫХ ОРГАНИЗАЦИЙ</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block></contents>
+		<style><CSS value="padding:0px"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>без учета РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомСбера"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учетом РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомРОСИНКАС"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>(для Федеральной службы государственной статистики Российской Федерации)</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Забалансовые символа</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Период&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> г.</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>с учётом </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Parameter1&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:left"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>тыс. руб. </staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><crosstab name="Перекрестная таблица2" horizontalPagination="true" refQuery="НДО_Строки" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="BoldHeader"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e8"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e7"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="font-weight:bold"/></style><contents><textItem><dataSource><memberCaption/></dataSource><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="Hide100"/></conditionalStyleRefs></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Сортировка" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="font-weight:bold"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/><crosstabSuppress type="columns"/></crosstab><crosstab name="Перекрестная таблица3" horizontalPagination="true" refQuery="НДО" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="ОКАТО" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="ОКАТО"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/></crosstab><crosstab horizontalPagination="true" name="Перекрестная таблица1" refQuery="НДО_Строки">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s1">
+			<contents>
+				<textItem><dataSource><staticValue>1</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s2">
+			<contents>
+				<textItem><dataSource><staticValue>2</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s3">
+			<contents>
+				<textItem><dataSource><staticValue>3</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabIntersections><crosstabIntersection row="e3" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections></crosstab></contents>
+								</pageBody>
+							<conditionalRender refVariable="Не показывать"><renderFor refVariableValue="1"/></conditionalRender></page><page name="Приход">
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="pg"/>
+									</defaultStyles>
+								</style>
+								<pageBody>
+									<style>
+										<defaultStyles>
+											<defaultStyle refStyle="pb"/>
+										</defaultStyles>
+									</style>
+									<contents><block>
+			<contents><textItem><dataSource><staticValue>Код документа 0409201+0409202.09.010208</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Дата и время формирования отчета: </staticValue></dataSource></textItem><date>
+			<style>
+				<dataFormat>
+					<dateFormat/>
+				</dataFormat>
+			</style>
+		</date><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><time>
+			<style>
+				<dataFormat>
+					<timeFormat/>
+				</dataFormat>
+			</style>
+		</time></contents>
+		<style><CSS value="text-align:right"/></style></block><block name="ЗаголовокОтчёта Блок4">
+			<contents><block>
+			<contents><textItem><dataSource><staticValue>СВОДНЫЙ ОТЧЕТ О НАЛИЧНОМ ДЕНЕЖНОМ ОБОРОТЕ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ </staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>БАНКА РОССИИ И КРЕДИТНЫХ ОРГАНИЗАЦИЙ</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block></contents>
+		<style><CSS value="padding:0px"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>без учета РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомСбера"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учетом РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомРОСИНКАС"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>(для Федеральной службы государственной статистики Российской Федерации)</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Приход</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Период&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> года</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideForYearPeriod"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учётом </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Parameter1&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:left;display:none"/></style></block><crosstab name="Перекрестная таблица10" horizontalPagination="true" refQuery="НДО" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="ОКАТО" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="ОКАТО"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/></crosstab><crosstab horizontalPagination="true" name="Перекрестная таблица11" refQuery="НДО_Строки">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s1">
+			<contents>
+				<textItem><dataSource><staticValue>1</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s2">
+			<contents>
+				<textItem><dataSource><staticValue>2</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s3">
+			<contents>
+				<textItem><dataSource><staticValue>3</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabIntersections><crosstabIntersection row="e3" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections></crosstab><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> год</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideForNonYearPeriod"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;ЕдиницыИзмерения&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><crosstab name="Перекрестная таблица12" refQuery="Приход" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;width:100%"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s4">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue> Сортировка</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="text-align:center;vertical-align:middle;display:none"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s3">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Код ФО</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				
+			<CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/><defaultStyles><defaultStyle refStyle="xs"/></defaultStyles></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s2">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Код ТУ</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				
+			<CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/><defaultStyles><defaultStyle refStyle="xs"/></defaultStyles></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s1">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Наименование федерального округа / территории</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				
+			<CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/><defaultStyles><defaultStyle refStyle="xs"/></defaultStyles></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_1"/><conditionalStyleRef refConditionalStyle="BoldGrayColumn_1"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><staticValue>Символы</staticValue></dataSource></textItem></contents><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_1"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e6"><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Код ФО"/><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="BoldHeader_1"/><conditionalStyleRef refConditionalStyle="GrayBack_1"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs><style><CSS value="background-color:white;border:0.25pt solid black"/></style><propertyList><propertyItem refDataItem="Код ФО"/><propertyItem refDataItem="Сортировка"/></propertyList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e5"><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><style><CSS value="background-color:white;border:0.25pt solid black"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="GrayBack_1"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs><propertyList><propertyItem refDataItem="Сортировка"/></propertyList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e4"><style><CSS value="font-weight:bold;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="Hide100_1"/></conditionalStyleRefs></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="GrayBack_1"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs><propertyList><propertyItem refDataItem="Код ФО"/><propertyItem refDataItem="Сортировка"/></propertyList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Сортировка" edgeLocation="e3"><style><CSS value="font-weight:bold;background-color:white;display:none;border:0.25pt solid silver"/><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabIntersections><crosstabIntersection row="e6" column="e2"><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_1"/><conditionalStyleRef refConditionalStyle="GrayBack_1"/><conditionalStyleRef refConditionalStyle="BoldGrayColumn_1"/><conditionalStyleRef refConditionalStyle="MeasureType"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs><style><CSS value="border:0.25pt solid black"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s4"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell></crosstab></contents>
+								</pageBody>
+							</page><page name="Расход">
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="pg"/>
+									</defaultStyles>
+								</style>
+								<pageBody>
+									<style>
+										<defaultStyles>
+											<defaultStyle refStyle="pb"/>
+										</defaultStyles>
+									</style>
+									<contents><block>
+			<contents><textItem><dataSource><staticValue>Код документа 0409201+0409202.09.010208</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Дата и время формирования отчета: </staticValue></dataSource></textItem><date>
+			<style>
+				<dataFormat>
+					<dateFormat/>
+				</dataFormat>
+			</style>
+		</date><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><time>
+			<style>
+				<dataFormat>
+					<timeFormat/>
+				</dataFormat>
+			</style>
+		</time></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents/>
+		</block><block name="ЗаголовокОтчёта Блок2">
+			<contents><block>
+			<contents><textItem><dataSource><staticValue>СВОДНЫЙ ОТЧЕТ О НАЛИЧНОМ ДЕНЕЖНОМ ОБОРОТЕ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ </staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>БАНКА РОССИИ И КРЕДИТНЫХ ОРГАНИЗАЦИЙ</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block></contents>
+		<style><CSS value="padding:0px"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>без учета РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомСбера"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учетом РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомРОСИНКАС"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>(для Федеральной службы государственной статистики Российской Федерации)</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Расход</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>с учётом </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Parameter1&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:left;display:none"/></style></block><crosstab name="Перекрестная таблица5" horizontalPagination="true" refQuery="НДО" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="ОКАТО" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="ОКАТО"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/></crosstab><crosstab horizontalPagination="true" name="Перекрестная таблица6" refQuery="НДО_Строки">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s1">
+			<contents>
+				<textItem><dataSource><staticValue>1</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s2">
+			<contents>
+				<textItem><dataSource><staticValue>2</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s3">
+			<contents>
+				<textItem><dataSource><staticValue>3</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabIntersections><crosstabIntersection row="e3" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections></crosstab><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Период&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> года</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideForYearPeriod"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учётом </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Parameter1&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:left;display:none"/></style></block><crosstab name="Перекрестная таблица13" horizontalPagination="true" refQuery="НДО" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="ОКАТО" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="ОКАТО"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/></crosstab><crosstab horizontalPagination="true" name="Перекрестная таблица13" refQuery="НДО_Строки">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s1">
+			<contents>
+				<textItem><dataSource><staticValue>1</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s2">
+			<contents>
+				<textItem><dataSource><staticValue>2</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s3">
+			<contents>
+				<textItem><dataSource><staticValue>3</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabIntersections><crosstabIntersection row="e3" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections></crosstab><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> год</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideForNonYearPeriod"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;ЕдиницыИзмерения&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><crosstab name="Перекрестная таблица4" refQuery="Расход" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;width:100%"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s2">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Сортировка</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="background-color:white;text-align:center;vertical-align:middle;display:none"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s4">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Код ФО</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="background-color:white;text-align:center;vertical-align:middle;border:0.25pt solid black"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s3">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Код ТУ</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="background-color:white;text-align:center;vertical-align:middle;border:0.25pt solid black"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s1">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Наименование федерального округа / территории</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="background-color:white;text-align:center;vertical-align:middle;border:0.25pt solid black"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="background-color:white;text-align:center;vertical-align:middle;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_2"/><conditionalStyleRef refConditionalStyle="BoldGrayColumn_2"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="background-color:white;text-align:center;vertical-align:middle;border:0.25pt solid black"/></style><contents><textItem><dataSource><staticValue>Символы</staticValue></dataSource></textItem></contents><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_2"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e6"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="BoldHeader_2"/><conditionalStyleRef refConditionalStyle="GrayBack_2"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="GrayBack_2"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="font-weight:bold;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="Hide100_2"/></conditionalStyleRefs></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="GrayBack_2"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Сортировка" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="font-weight:bold;background-color:white;display:none"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabIntersections><crosstabIntersection row="e6" column="e2"><style><CSS value="border:0.25pt solid black"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_2"/><conditionalStyleRef refConditionalStyle="GrayBack_2"/><conditionalStyleRef refConditionalStyle="BoldGrayColumn_2"/><conditionalStyleRef refConditionalStyle="MeasureType"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabIntersection><crosstabIntersection row="e6" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s4"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell></crosstab></contents>
+								</pageBody>
+							</page><page name="Забалансовые символы">
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="pg"/>
+									</defaultStyles>
+								</style>
+								<pageBody>
+									<style>
+										<defaultStyles>
+											<defaultStyle refStyle="pb"/>
+										</defaultStyles>
+									</style>
+									<contents><block>
+			<contents><textItem><dataSource><staticValue>Код документа 0409201+0409202.09.010208</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Дата и время формирования отчета: </staticValue></dataSource></textItem><date>
+			<style>
+				<dataFormat>
+					<dateFormat/>
+				</dataFormat>
+			</style>
+		</date><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><time>
+			<style>
+				<dataFormat>
+					<timeFormat/>
+				</dataFormat>
+			</style>
+		</time></contents>
+		<style><CSS value="text-align:right"/></style></block><block>
+			<contents/>
+		</block><block name="ЗаголовокОтчёта Блок3">
+			<contents><block>
+			<contents><textItem><dataSource><staticValue>СВОДНЫЙ ОТЧЕТ О НАЛИЧНОМ ДЕНЕЖНОМ ОБОРОТЕ СТРУКТУРНЫХ ПОДРАЗДЕЛЕНИЙ </staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>БАНКА РОССИИ И КРЕДИТНЫХ ОРГАНИЗАЦИЙ</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block></contents>
+		<style><CSS value="padding:0px"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>без учета РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомСбера"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учетом РОСИНКАС</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="СучётомРОСИНКАС"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>(для Федеральной службы государственной статистики Российской Федерации)</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>Забалансовые символы</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center;font-weight:bold"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>с учётом </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Parameter1&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:left;display:none"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Период&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> года</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideForYearPeriod"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><staticValue>с учётом </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;Parameter1&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:left;display:none"/></style></block><crosstab name="Перекрестная таблица14" horizontalPagination="true" refQuery="НДО" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="ОКАТО" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="ОКАТО"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/></crosstab><crosstab horizontalPagination="true" name="Перекрестная таблица14" refQuery="НДО_Строки">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s1">
+			<contents>
+				<textItem><dataSource><staticValue>1</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s2">
+			<contents>
+				<textItem><dataSource><staticValue>2</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s3">
+			<contents>
+				<textItem><dataSource><staticValue>3</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabIntersections><crosstabIntersection row="e3" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections></crosstab><block>
+			<contents><textItem><dataSource><staticValue>за </staticValue></dataSource></textItem><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;выбранныйГод&apos;)</reportExpression></dataSource></textItem><textItem><dataSource><staticValue> год</staticValue></dataSource></textItem></contents>
+		<style><CSS value="text-align:center"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideForNonYearPeriod"/></conditionalStyleRefs></block><block>
+			<contents><textItem><dataSource><reportExpression>ParamDisplayValue(&apos;ЕдиницыИзмерения&apos;)</reportExpression></dataSource></textItem></contents>
+		<style><CSS value="text-align:right"/></style></block><crosstab name="Перекрестная таблица7" horizontalPagination="true" refQuery="НДО" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabColumns><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="ОКАТО" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="ОКАТО"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Сумма в отчет"/></crosstab><crosstab horizontalPagination="true" name="Перекрестная таблица8" refQuery="НДО_Строки">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;display:none"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s1">
+			<contents>
+				<textItem><dataSource><staticValue>1</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s2">
+			<contents>
+				<textItem><dataSource><staticValue>2</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer renderFactCells="true" edgeLocation="s3">
+			<contents>
+				<textItem><dataSource><staticValue>3</staticValue></dataSource></textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			</style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell><crosstabIntersections><crosstabIntersection row="e3" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e3" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections></crosstab><crosstab name="Перекрестная таблица9" refQuery="Забаланс" rowsPerPage="50000">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Сумма в отчет"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				<CSS value="display:none"/></style>
+			</crosstabCorner>
+			
+			
+			<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Нет доступных данных</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler>
+			<style>
+				<CSS value="border-collapse:collapse;width:100%"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s2">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Сортировка</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="display:none"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s4">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Код ФО</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s3">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Код ТУ</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNodeMembers><crosstabSpacer edgeLocation="s1">
+			<contents>
+				<textItem>
+					<dataSource>
+						<staticValue>Наименование федерального округа / территории</staticValue>
+					</dataSource>
+				</textItem>
+			</contents>
+			
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="xs"/>
+				</defaultStyles>
+			<CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style>
+		</crosstabSpacer></crosstabNodeMembers></crosstabNode><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Символ" edgeLocation="e2"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Порядковый номер строки при сортировке в отчете"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_3"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Признак символа" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="text-align:center;vertical-align:middle;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><staticValue>Символы</staticValue></dataSource></textItem></contents><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_3"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Наименование ФО или Территории" edgeLocation="e6"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="BoldHeader_3"/><conditionalStyleRef refConditionalStyle="GrayBack_3"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ТУ" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="GrayBack_3"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Код ФО" edgeLocation="e4"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="font-weight:bold;background-color:white;border:0.25pt solid black"/></style><contents><textItem><dataSource><memberCaption/></dataSource><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="Hide100_3"/></conditionalStyleRefs></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="GrayBack_3"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Сортировка" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles><CSS value="font-weight:bold;display:none"/></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Сортировка"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><crosstabIntersections><crosstabIntersection row="e6" column="e2"><style><CSS value="border:0.25pt solid black"/></style><conditionalStyleRefs><conditionalStyleRef refConditionalStyle="HideEmptyColumn_3"/><conditionalStyleRef refConditionalStyle="GrayBack_3"/><conditionalStyleRef refConditionalStyle="MeasureType"/><conditionalStyleRef refConditionalStyle="GrayBackNewTer"/></conditionalStyleRefs></crosstabIntersection><crosstabIntersection row="e6" column="s1"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s2"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s3"><style><CSS value="display:none"/></style></crosstabIntersection><crosstabIntersection row="e6" column="s4"><style><CSS value="display:none"/></style></crosstabIntersection></crosstabIntersections><defaultMeasure refDataItem="Сумма в отчет"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell></crosstab></contents>
+								</pageBody>
+							</page></reportPages>
+					<promptPages><page name="Ввод данных">
+			<pageHeader>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue/>
+								</dataSource>
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="tt"/>
+									</defaultStyles>
+								</style>
+							</textItem>
+						</contents>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="ta"/>
+							</defaultStyles>
+						</style>
+					</block>
+				</contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="hp"/>
+					</defaultStyles>
+				</style>
+			</pageHeader>
+			<pageBody>
+				<contents><table><style><defaultStyles><defaultStyle refStyle="tb"/></defaultStyles><CSS value="border-collapse:collapse;width:100%"/></style><tableRows><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Отчетный год:</staticValue></dataSource><style><CSS value="font-weight:bold"/></style></textItem></contents><style><CSS value="text-align:right;padding-top:10px;padding-right:10px;padding-bottom:10px;vertical-align:top"/></style></tableCell><tableCell><contents><selectValue refQuery="ГОД" parameter="выбранныйГод" autoSubmit="true"><useItem refDataItem="Год"/><sortList><sortItem refDataItem="Год" sortOrder="descending"/></sortList></selectValue></contents><style><CSS value="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;padding-left:10px"/></style></tableCell><tableCell><contents/></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Период:</staticValue></dataSource><style><CSS value="font-weight:bold"/></style></textItem></contents><style><CSS value="text-align:right;padding-top:10px;padding-right:10px;padding-bottom:10px;vertical-align:top"/></style></tableCell><tableCell><contents><selectValue refQuery="Периоды2" parameter="Период" cascadeOn=""><useItem refDataItem="Наименование периода"/><sortList><sortItem refDataItem="Сортировка"/></sortList></selectValue></contents><style><CSS value="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;padding-left:10px"/></style></tableCell><tableCell><contents/></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>РОСИНКАС:</staticValue></dataSource><style><CSS value="font-weight:bold"/></style></textItem></contents><style><CSS value="text-align:right;vertical-align:top;padding-top:10px;padding-right:10px;padding-bottom:10px"/></style></tableCell><tableCell><contents><selectValue required="false" hideAdornments="true" cascadeOn="" parameter="Parameter1" rowsPerPage="1" selectValueUI="radioGroup"><defaultSelections><defaultSimpleSelection>РОСИНКАС</defaultSimpleSelection></defaultSelections><selectOptions><selectOption useValue="РОСИНКАС"><displayValue>включить</displayValue></selectOption><selectOption useValue="неквлючать"><displayValue>не включать</displayValue></selectOption></selectOptions></selectValue></contents><style><CSS value="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;padding-left:10px"/></style></tableCell><tableCell><contents/></tableCell></tableCells></tableRow><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Единицы измерения:</staticValue></dataSource><style><CSS value="font-weight:bold"/></style></textItem></contents><style><CSS value="text-align:right;width:20%;vertical-align:top;padding-top:10px;padding-right:10px;padding-bottom:10px"/></style></tableCell><tableCell><contents><selectValue hideAdornments="true" cascadeOn="" parameter="ЕдиницыИзмерения" selectValueUI="radioGroup" rowsPerPage="3"><defaultSelections><defaultSimpleSelection>1</defaultSimpleSelection></defaultSelections><selectOptions><selectOption useValue="1"><displayValue>тыс. руб.</displayValue></selectOption><selectOption useValue="2"><displayValue>млн. руб.</displayValue></selectOption><selectOption useValue="3"><displayValue>млрд. руб.</displayValue></selectOption></selectOptions></selectValue></contents><style><CSS value="text-align:left;vertical-align:top;padding-top:10px;padding-bottom:10px;padding-left:10px"/></style></tableCell><tableCell><contents/></tableCell></tableCells></tableRow></tableRows></table></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="py"/>
+					</defaultStyles>
+				</style>
+			</pageBody>
+			<pageFooter>
+				<contents>
+					<promptButton type="cancel">
+						<contents/>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="bp"/>
+							</defaultStyles>
+						</style>
+					</promptButton>
+					
+					
+					<promptButton type="finish">
+						<contents/>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="bp"/>
+							</defaultStyles>
+						</style>
+					</promptButton>
+				</contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="fp"/>
+					</defaultStyles>
+				</style>
+			</pageFooter>
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="pp"/>
+				</defaultStyles>
+			</style>
+		</page></promptPages><pageSetup orientation="landscape"/></layout>
+				</layouts>
+			<XMLAttributes><XMLAttribute name="RS_CreateExtendedDataItems" value="true" output="no"/><XMLAttribute name="listSeparator" value=";" output="no"/><XMLAttribute name="decimalSeparator" value="," output="no"/><XMLAttribute output="no" name="RS_modelModificationTime" value="2022-12-01T14:12:52.022Z"/></XMLAttributes><queries><query name="ГОД">
+<source>
+    <model/>
+</source>
+<selection><dataItem name="Год" aggregate="none" rollupAggregate="none"><expression>[Справочники].[Календарь].[Год]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem></selection>
+<detailFilters><detailFilter><filterExpression>[Год] between 2017 and _year(current_date)</filterExpression></detailFilter></detailFilters></query><query name="Периоды2">
+			<source>
+				<model/>
+			</source>
+			<selection><dataItem aggregate="none" rollupAggregate="none" name="Номер строки"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Периоды для отчетов ДНДО].[Номер строки]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="1"/><XMLAttribute output="no" name="RS_dataUsage" value="1"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Наименование периода"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Периоды для отчетов ДНДО].[Наименование периода]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="3"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Месяц"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Периоды для отчетов ДНДО].[Месяц]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="1"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Сортировка"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Периоды для отчетов ДНДО].[Сортировка]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="1"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem></selection>
+		</query><query name="отбор201">
+<source>
+    <model/>
+</source>
+<selection><dataItem name="ГОД" aggregate="none" rollupAggregate="none"><expression>_year(_add_days([Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[Дата отчета КО]; -1))</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Месяц" aggregate="none" rollupAggregate="none"><expression>_month(_add_days([Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[Дата отчета КО]; -1))</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Дата отчета КО" aggregate="none" rollupAggregate="none"><expression>[Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[Дата отчета КО]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="КП" aggregate="none" rollupAggregate="none"><expression>[Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[КП]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Внутренний код ТУ" aggregate="none" rollupAggregate="none"><expression>[Справочники].[Территориальные учреждения].[Внутренний код ТУ]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="9" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Подраздел" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Данные ф.201].[Подраздел]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Признак символа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Признак символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Признак строки" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Признак строки]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Символ" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Символ]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Наименование символа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Наименование символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Номер символа в отчете" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Номер символа в отчете]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Порядковый номер строки при сортировке в отчете]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="2" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Группа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Группа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Подгруппа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Подгруппа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="ОКАТО" aggregate="none" rollupAggregate="none"><expression>/* [Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[OKATO по символам].[Позиции 1-5 кода ОКАТО] */
+[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Данные ф.201].[ОКАТО Символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Сумма по символу, тыс. руб" aggregate="total"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Данные ф.201].[Сумма по символу, тыс. руб]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="9" output="no"/><XMLAttribute name="RS_dataUsage" value="2" output="no"/></XMLAttributes></dataItem></selection>
+<detailFilters><detailFilter><filterExpression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Признак строки]&lt;&gt;2</filterExpression></detailFilter><detailFilter><filterExpression>[ГОД]=?выбранныйГод?</filterExpression></detailFilter><detailFilter><filterExpression>case 
+when (?Период?=&apos;год&apos;) then( [Месяц] between 1 and 12)
+when (?Период?=&apos;II полугодие&apos;) then( [Месяц] between 7 and 12)
+when (?Период?=&apos;I полугодие&apos;) then( [Месяц] between 1 and 6)
+when (?Период?=&apos;9 месяцев&apos;) then( [Месяц] between 1 and 9)
+when (?Период?=&apos;I квартал&apos;) then( [Месяц] between 1 and 3)
+when (?Период?=&apos;II квартал&apos;) then( [Месяц] between 4 and 6)
+when (?Период?=&apos;III квартал&apos;) then( [Месяц] between 7 and 9)
+when (?Период?=&apos;IV квартал&apos;) then( [Месяц] between 10 and 12)
+when (?Период?=&apos;январь&apos;) then( [Месяц] =1)
+when (?Период?=&apos;февраль&apos;) then( [Месяц] =2)
+when (?Период?=&apos;март&apos;) then( [Месяц] =3)
+when (?Период?=&apos;апрель&apos;) then( [Месяц] =4)
+when (?Период?=&apos;май&apos;) then( [Месяц] =5)
+when (?Период?=&apos;июнь&apos;) then( [Месяц] =6)
+when (?Период?=&apos;июль&apos;) then( [Месяц] =7)
+when (?Период?=&apos;август&apos;) then( [Месяц] =8)
+when (?Период?=&apos;сентябрь&apos;) then( [Месяц] =9)
+when (?Период?=&apos;октябрь&apos;) then( [Месяц] =10)
+when (?Период?=&apos;ноябрь&apos;) then( [Месяц] =11)
+when (?Период?=&apos;декабрь&apos;) then( [Месяц] =12)
+end
+</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>[ОКАТО] in (?ВыбранныеОКАТО?)</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>(&apos;РОСИНКАС&apos; in ?Parameter1?) 
+or 
+((not(&apos;РОСИНКАС&apos; in ?Parameter1?) and  ([Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[КП]&lt;&gt;&apos;D9&apos;)))
+</filterExpression></detailFilter></detailFilters></query><query name="отбор201ДПУЧР-1">
+<source>
+    <model/>
+</source>
+<selection><dataItem name="ГОД" aggregate="none" rollupAggregate="none"><expression>_year(_add_days([Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[Дата отчета КО]; -1))</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Месяц" aggregate="none" rollupAggregate="none"><expression>_month(_add_days([Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[Дата отчета КО]; -1))</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Дата отчета КО" aggregate="none" rollupAggregate="none"><expression>[Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[Дата отчета КО]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="КП" aggregate="none" rollupAggregate="none"><expression>[Отчетные данные (для запросов)].[Реквизиты отчетов ТУ].[КП]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Внутренний код ТУ" aggregate="none" rollupAggregate="none"><expression>[Справочники].[Территориальные учреждения].[Внутренний код ТУ]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="9" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Подраздел" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Данные ф.201].[Подраздел]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Признак символа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Признак символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Признак строки" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Признак строки]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Символ" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Символ]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Наименование символа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Наименование символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Номер символа в отчете" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Номер символа в отчете]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Порядковый номер строки при сортировке в отчете]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="2" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Группа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Группа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Подгруппа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Подгруппа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="ОКАТО" aggregate="none" rollupAggregate="none"><expression>&apos;45000&apos;</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Сумма по символу, тыс. руб" aggregate="total"><expression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Данные ф.201].[Сумма по символу, тыс. руб]*(-1)</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="9" output="no"/><XMLAttribute name="RS_dataUsage" value="2" output="no"/></XMLAttributes></dataItem></selection>
+<detailFilters><detailFilter><filterExpression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Справочник форм денежного обращения ф.201].[Признак строки]&lt;&gt;2</filterExpression></detailFilter><detailFilter><filterExpression>[ГОД]=?выбранныйГод?</filterExpression></detailFilter><detailFilter><filterExpression>case 
+when (?Период?=&apos;год&apos;) then( [Месяц] between 1 and 12)
+when (?Период?=&apos;II полугодие&apos;) then( [Месяц] between 7 and 12)
+when (?Период?=&apos;I полугодие&apos;) then( [Месяц] between 1 and 6)
+when (?Период?=&apos;9 месяцев&apos;) then( [Месяц] between 1 and 9)
+when (?Период?=&apos;I квартал&apos;) then( [Месяц] between 1 and 3)
+when (?Период?=&apos;II квартал&apos;) then( [Месяц] between 4 and 6)
+when (?Период?=&apos;III квартал&apos;) then( [Месяц] between 7 and 9)
+when (?Период?=&apos;IV квартал&apos;) then( [Месяц] between 10 and 12)
+when (?Период?=&apos;январь&apos;) then( [Месяц] =1)
+when (?Период?=&apos;февраль&apos;) then( [Месяц] =2)
+when (?Период?=&apos;март&apos;) then( [Месяц] =3)
+when (?Период?=&apos;апрель&apos;) then( [Месяц] =4)
+when (?Период?=&apos;май&apos;) then( [Месяц] =5)
+when (?Период?=&apos;июнь&apos;) then( [Месяц] =6)
+when (?Период?=&apos;июль&apos;) then( [Месяц] =7)
+when (?Период?=&apos;август&apos;) then( [Месяц] =8)
+when (?Период?=&apos;сентябрь&apos;) then( [Месяц] =9)
+when (?Период?=&apos;октябрь&apos;) then( [Месяц] =10)
+when (?Период?=&apos;ноябрь&apos;) then( [Месяц] =11)
+when (?Период?=&apos;декабрь&apos;) then( [Месяц] =12)
+end
+</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>[ОКАТО] in (?ВыбранныеОКАТО?)</filterExpression></detailFilter><detailFilter><filterExpression>[КП]=&apos;31&apos;</filterExpression></detailFilter><detailFilter><filterExpression>[Отчет о наличном денежном обороте структурных подразделений Банка России ф.0409201].[Данные ф.201].[ОКАТО Символа]=&apos;96000&apos;</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>(&apos;ДПУ&apos; in ?Parameter1?  and ([Отчетные данные (для запросов)].[Реквизиты отчетов ОКАТО].[КП]=&apos;31&apos;))
+/* выбран ДПУ */</filterExpression></detailFilter></detailFilters></query><query name="201очищенный">
+<source>
+    
+<queryOperation name="Union3">
+<queryRefs><queryRef refQuery="отбор201"/><queryRef refQuery="отбор201ДПУЧР-1"/></queryRefs>
+<projectionList autoGenerated="true"><queryItem name="ГОД"/><queryItem name="Месяц"/><queryItem name="Дата отчета КО"/><queryItem name="КП"/><queryItem name="Внутренний код ТУ"/><queryItem name="Подраздел"/><queryItem name="Признак символа"/><queryItem name="Признак строки"/><queryItem name="Символ"/><queryItem name="Наименование символа"/><queryItem name="Номер символа в отчете"/><queryItem name="Порядковый номер строки при сортировке в отчете"/><queryItem name="Группа"/><queryItem name="Подгруппа"/><queryItem name="ОКАТО"/><queryItem name="Сумма по символу, тыс. руб"/></projectionList>
+</queryOperation></source>
+<selection><dataItem name="ГОД"><expression>[Union3].[ГОД]</expression></dataItem><dataItem name="Месяц"><expression>[Union3].[Месяц]</expression></dataItem><dataItem name="Дата отчета КО"><expression>[Union3].[Дата отчета КО]</expression></dataItem><dataItem name="Подраздел"><expression>[Union3].[Подраздел]</expression></dataItem><dataItem name="Признак символа"><expression>[Union3].[Признак символа]</expression></dataItem><dataItem name="Признак строки"><expression>[Union3].[Признак строки]</expression></dataItem><dataItem name="Символ"><expression>[Union3].[Символ]</expression></dataItem><dataItem name="Наименование символа"><expression>[Union3].[Наименование символа]</expression></dataItem><dataItem name="Номер символа в отчете"><expression>[Union3].[Номер символа в отчете]</expression></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете"><expression>[Union3].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem name="Группа"><expression>[Union3].[Группа]</expression></dataItem><dataItem name="Подгруппа"><expression>[Union3].[Подгруппа]</expression></dataItem><dataItem name="ОКАТО"><expression>[Union3].[ОКАТО]</expression></dataItem><dataItem name="Сумма"><expression>[Union3].[Сумма по символу, тыс. руб]</expression></dataItem><dataItem name="Первая дата периода"><expression>minimum([Дата отчета КО] for report)</expression></dataItem><dataItem name="Последняя дата периода"><expression>maximum([Дата отчета КО] for report)</expression></dataItem></selection>
+</query><query name="отбор202">
+<source>
+    <model/>
+</source>
+<selection><dataItem name="ГОД" aggregate="none" rollupAggregate="none"><expression>_year(_add_days([Отчетные данные (для запросов)].[Реквизиты отчетов без политик].[Дата отчета КО];-1))</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Месяц" aggregate="none" rollupAggregate="none"><expression>_month(_add_days([Отчетные данные (для запросов)].[Реквизиты отчетов без политик].[Дата отчета КО];-1))</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Дата отчета КО" aggregate="none" rollupAggregate="none"><expression>[Отчетные данные (для запросов)].[Реквизиты отчетов без политик].[Дата отчета КО]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Подраздел" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Данные ф.202 (ОКАТО)].[Подраздел]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Признак символа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Признак символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Признак строки" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Признак строки]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Символ" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Символ]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Наименование символа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Наименование символа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Номер символа в отчете" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Номер символа в отчете]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Порядковый номер строки при сортировке в отчете]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="2" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Группа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Группа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Подгруппа" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Подгруппа]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="ОКАТО" aggregate="none" rollupAggregate="none"><expression>/* [Отчет о наличном денежном обороте (ф.202)].[OKATO для символов].[Позиции 1-5 кода ОКАТО] */
+[Отчет о наличном денежном обороте (ф.202)].[Данные ф.202 (ОКАТО)].[Код ОКАТО]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Сумма" aggregate="total"><expression>[Отчет о наличном денежном обороте (ф.202)].[Данные ф.202 (ОКАТО)].[Сумма по символу (по ОКАТО), тыс. руб.]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="9" output="no"/><XMLAttribute name="RS_dataUsage" value="2" output="no"/></XMLAttributes></dataItem><dataItem name="Первая дата периода" aggregate="none" rollupAggregate="none"><expression>minimum([Дата отчета КО] for report)</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Последняя дата периода" aggregate="none" rollupAggregate="none"><expression>maximum([Дата отчета КО] for report)</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="4" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem></selection>
+<detailFilters><detailFilter><filterExpression>[Отчет о наличном денежном обороте (ф.202)].[Справочник форм денежного обращения (ОКАТО)].[Признак строки]&lt;&gt;2</filterExpression></detailFilter><detailFilter><filterExpression>[ГОД]=?выбранныйГод?</filterExpression></detailFilter><detailFilter><filterExpression>case 
+when (?Период?=&apos;год&apos;) then( [Месяц] between 1 and 12)
+when (?Период?=&apos;II полугодие&apos;) then( [Месяц] between 7 and 12)
+when (?Период?=&apos;I полугодие&apos;) then( [Месяц] between 1 and 6)
+when (?Период?=&apos;9 месяцев&apos;) then( [Месяц] between 1 and 9)
+when (?Период?=&apos;I квартал&apos;) then( [Месяц] between 1 and 3)
+when (?Период?=&apos;II квартал&apos;) then( [Месяц] between 4 and 6)
+when (?Период?=&apos;III квартал&apos;) then( [Месяц] between 7 and 9)
+when (?Период?=&apos;IV квартал&apos;) then( [Месяц] between 10 and 12)
+when (?Период?=&apos;январь&apos;) then( [Месяц] =1)
+when (?Период?=&apos;февраль&apos;) then( [Месяц] =2)
+when (?Период?=&apos;март&apos;) then( [Месяц] =3)
+when (?Период?=&apos;апрель&apos;) then( [Месяц] =4)
+when (?Период?=&apos;май&apos;) then( [Месяц] =5)
+when (?Период?=&apos;июнь&apos;) then( [Месяц] =6)
+when (?Период?=&apos;июль&apos;) then( [Месяц] =7)
+when (?Период?=&apos;август&apos;) then( [Месяц] =8)
+when (?Период?=&apos;сентябрь&apos;) then( [Месяц] =9)
+when (?Период?=&apos;октябрь&apos;) then( [Месяц] =10)
+when (?Период?=&apos;ноябрь&apos;) then( [Месяц] =11)
+when (?Период?=&apos;декабрь&apos;) then( [Месяц] =12)
+end
+</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>[ОКАТО] in (?ВыбранныеОКАТО?)</filterExpression></detailFilter><detailFilter use="optional"><filterExpression>(&apos;РОСИНКАС&apos; in ?Parameter1?) 
+or 
+([Отчетные данные (для запросов)].[Реквизиты отчетов без политик].[Условный код формы банковской отчетности]&lt;&gt;&apos;202I&apos;)
+
+</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>[Отчетные данные (для запросов)].[Реквизиты отчетов без политик].[Условный код формы банковской отчетности]&lt;&gt;&apos;202I&apos;</filterExpression></detailFilter><detailFilter use="prohibited"><filterExpression>[Отчетные данные (для запросов)].[Реквизиты отчетов без политик].[КП]&lt;&gt;&apos;D9&apos;</filterExpression></detailFilter></detailFilters></query><query name="НДО 201 и 202">
+<source>
+    
+<queryOperation name="Union4">
+<queryRefs><queryRef refQuery="отбор202"/><queryRef refQuery="201очищенный"/></queryRefs>
+<projectionList autoGenerated="true"><queryItem name="ГОД"/><queryItem name="Месяц"/><queryItem name="Дата отчета КО"/><queryItem name="Подраздел"/><queryItem name="Признак символа"/><queryItem name="Признак строки"/><queryItem name="Символ"/><queryItem name="Наименование символа"/><queryItem name="Номер символа в отчете"/><queryItem name="Порядковый номер строки при сортировке в отчете"/><queryItem name="Группа"/><queryItem name="Подгруппа"/><queryItem name="ОКАТО"/><queryItem name="Сумма"/><queryItem name="Первая дата периода"/><queryItem name="Последняя дата периода"/></projectionList>
+</queryOperation></source>
+<selection><dataItem name="ГОД"><expression>[Union4].[ГОД]</expression></dataItem><dataItem name="Месяц"><expression>[Union4].[Месяц]</expression></dataItem><dataItem name="Дата отчета КО"><expression>[Union4].[Дата отчета КО]</expression></dataItem><dataItem name="Подраздел"><expression>[Union4].[Подраздел]</expression></dataItem><dataItem name="Признак символа"><expression>[Union4].[Признак символа]</expression></dataItem><dataItem name="Признак строки"><expression>[Union4].[Признак строки]</expression></dataItem><dataItem name="Символ"><expression>[Union4].[Символ]</expression></dataItem><dataItem name="Номер символа в отчете"><expression>[Union4].[Номер символа в отчете]</expression></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете"><expression>[Union4].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem name="Группа"><expression>[Union4].[Группа]</expression></dataItem><dataItem name="Подгруппа"><expression>[Union4].[Подгруппа]</expression></dataItem><dataItem name="ОКАТО"><expression>[Union4].[ОКАТО]</expression></dataItem><dataItem name="Сумма" aggregate="total"><expression>[Union4].[Сумма]</expression></dataItem><dataItem name="Первая дата периода"><expression>[Union4].[Первая дата периода]</expression></dataItem><dataItem name="Последняя дата периода"><expression>[Union4].[Последняя дата периода]</expression></dataItem><dataItem name="Сумма (первая ОД периода)"><expression>if([Признак строки]=&apos;1&apos;) then(0) Else (
+if([Union4].[Дата отчета КО]=[Union4].[Первая дата периода]) then ([Сумма]) Else (0))</expression></dataItem><dataItem name="Сумма (последняя ОД периода)"><expression>if([Признак строки]=&apos;1&apos;) then(0) Else (
+if([Union4].[Дата отчета КО]=[Union4].[Последняя дата периода]) then ([Сумма]) Else (0))</expression></dataItem></selection>
+</query><query name="НДО">
+<source>
+    
+<queryRef refQuery="НДО 201 и 202"/></source>
+<selection><dataItem name="Подраздел"><expression>[НДО 201 и 202].[Подраздел]</expression></dataItem><dataItem name="Признак символа"><expression>[НДО 201 и 202].[Признак символа]</expression></dataItem><dataItem name="Признак строки"><expression>[НДО 201 и 202].[Признак строки]</expression></dataItem><dataItem name="Символ"><expression>[НДО 201 и 202].[Символ]</expression></dataItem><dataItem name="Номер символа в отчете"><expression>[НДО 201 и 202].[Номер символа в отчете]</expression></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете"><expression>[НДО 201 и 202].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem name="Группа"><expression>[НДО 201 и 202].[Группа]</expression></dataItem><dataItem name="Подгруппа"><expression>[НДО 201 и 202].[Подгруппа]</expression></dataItem><dataItem name="ОКАТО"><expression>[НДО 201 и 202].[ОКАТО]</expression></dataItem><dataItem name="Сумма" aggregate="total"><expression>case 
+when ([Признак строки]=&apos;1&apos;) Then (0)
+when ([Номер символа в отчете] in (&apos;34&apos;; &apos;35&apos;)) then ([НДО 201 и 202].[Сумма (первая ОД периода)])
+when ([Номер символа в отчете] in (&apos;69&apos;; &apos;70&apos;; &apos;89&apos;; &apos;96&apos;)) then ([НДО 201 и 202].[Сумма (последняя ОД периода)])
+else ([НДО 201 и 202].[Сумма])
+end</expression></dataItem><dataItem name="Первая дата периода"><expression>[НДО 201 и 202].[Первая дата периода]</expression></dataItem><dataItem name="Последняя дата периода"><expression>[НДО 201 и 202].[Последняя дата периода]</expression></dataItem><dataItem name="Сумма (первая ОД периода)" aggregate="total"><expression>[НДО 201 и 202].[Сумма (первая ОД периода)]</expression></dataItem><dataItem name="Сумма (последняя ОД периода)" aggregate="total"><expression>[НДО 201 и 202].[Сумма (последняя ОД периода)]</expression></dataItem><dataItem name="Сумма по группе"><expression>total([Сумма] for  [ОКАТО]; [Группа])</expression></dataItem><dataItem name="Сумма по подгруппе"><expression>total([Сумма] for  [ОКАТО]; [Группа]; [Подгруппа])</expression></dataItem><dataItem name="Сумма в отчет" label="(Символ\ ОКАТО)"><expression>case 
+when ([Признак строки]=&apos;1&apos; and [Подгруппа]=&apos;1&apos;) Then ([Сумма по подгруппе])
+when ([Признак строки]=&apos;1&apos; and [Подгруппа]=&apos;2&apos;) Then ([Сумма по группе])
+else ([Сумма])
+end</expression></dataItem></selection>
+</query><query name="Строки">
+			<source>
+				<model/>
+			</source>
+			<selection><dataItem name="Номер строки" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Номер строки]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="2" output="no"/><XMLAttribute name="RS_dataUsage" value="1" output="no"/></XMLAttributes></dataItem><dataItem name="Код ФО" aggregate="none" rollupAggregate="none"><expression>case 
+	when [Сортировка] = 9800 then &apos;100&apos;
+	else [Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Код ФО]
+end</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Код ТУ" aggregate="none" rollupAggregate="none"><expression>if(length([Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Код ТУ])&lt;2) then (&apos;0&apos;||[Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Код ТУ]) else ([Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Код ТУ])</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Наименование ФО или Территории" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Наименование ФО или Территории]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="ОКАТО" aggregate="none" rollupAggregate="none"><expression>/* if(length([Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[ОКАТО])&lt;5) then (&apos;0&apos;||[Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[ОКАТО]) else ([Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[ОКАТО]) */
+
+[Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[ОКАТО]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="3" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem><dataItem name="Сортировка" aggregate="none" rollupAggregate="none"><expression>[Отчет о наличном денежном обороте (ф.202)].[Строки отчета 202.09 РОССТАТ].[Сортировка]</expression><XMLAttributes><XMLAttribute name="RS_dataType" value="2" output="no"/><XMLAttribute name="RS_dataUsage" value="0" output="no"/></XMLAttributes></dataItem></selection>
+		</query><query name="Строки с 1.11.2022">
+			<source>
+				
+			<sqlQuery name="SQL1" dataSource="DM_NIKA_KO_ORA12">
+			<sqlText>SElect x.ID, x.FED_CODE, x.TU_CD, x.ROW_NAME, x.OKATO1, x.STR_NUM from
+XMLTABLE(&apos;/OkatoDir/Okato&apos; Passing xmltype(&apos;&lt;OkatoDir&gt;
+&lt;Okato id=&quot;1&quot;&gt;&lt;FED_CODE&gt;&lt;/FED_CODE&gt;&lt;TU_CD&gt;21&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Донецкая Народная Республика&lt;/ROW_NAME&gt;&lt;OKATO1&gt;21000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9710&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;2&quot;&gt;&lt;FED_CODE&gt;&lt;/FED_CODE&gt;&lt;TU_CD&gt;74&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Херсонская область&lt;/ROW_NAME&gt;&lt;OKATO1&gt;74000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9740&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;3&quot;&gt;&lt;FED_CODE&gt;&lt;/FED_CODE&gt;&lt;TU_CD&gt;43&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Луганская Народная Республика&lt;/ROW_NAME&gt;&lt;OKATO1&gt;43000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9730&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;4&quot;&gt;&lt;FED_CODE&gt;&lt;/FED_CODE&gt;&lt;TU_CD&gt;23&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Запорожская область&lt;/ROW_NAME&gt;&lt;OKATO1&gt;23000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9720&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;5&quot;&gt;&lt;FED_CODE&gt;100&lt;/FED_CODE&gt;&lt;TU_CD&gt;&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Итого по России&lt;/ROW_NAME&gt;&lt;OKATO1&gt;21000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9800&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;6&quot;&gt;&lt;FED_CODE&gt;100&lt;/FED_CODE&gt;&lt;TU_CD&gt;&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Итого по России&lt;/ROW_NAME&gt;&lt;OKATO1&gt;74000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9800&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;7&quot;&gt;&lt;FED_CODE&gt;100&lt;/FED_CODE&gt;&lt;TU_CD&gt;&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Итого по России&lt;/ROW_NAME&gt;&lt;OKATO1&gt;43000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9800&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;Okato id=&quot;8&quot;&gt;&lt;FED_CODE&gt;100&lt;/FED_CODE&gt;&lt;TU_CD&gt;&lt;/TU_CD&gt;&lt;ROW_NAME&gt;Итого по России&lt;/ROW_NAME&gt;&lt;OKATO1&gt;23000&lt;/OKATO1&gt;&lt;STR_NUM&gt;9800&lt;/STR_NUM&gt;&lt;/Okato&gt;
+&lt;/OkatoDir&gt;&apos;) columns id NUMBER PATH &apos;@id&apos;, FED_CODE varchar2(40) path &apos;FED_CODE&apos;, TU_CD varchar2(40) path &apos;TU_CD&apos;,ROW_NAME varchar2(40) path &apos;ROW_NAME&apos;,OKATO1 varchar2(40) path &apos;OKATO1&apos;, STR_NUM number path &apos;STR_NUM&apos;) x</sqlText>
+		<mdProjectedItems><mdProjectedItem name="ID"/><mdProjectedItem name="FED_CODE"/><mdProjectedItem name="TU_CD"/><mdProjectedItem name="ROW_NAME"/><mdProjectedItem name="OKATO1"/><mdProjectedItem name="STR_NUM"/></mdProjectedItems></sqlQuery></source>
+			<selection><dataItem name="Номер строки"><expression>[SQL1].[ID]</expression></dataItem><dataItem name="Код ФО"><expression>[SQL1].[FED_CODE]</expression></dataItem><dataItem name="Код ТУ"><expression>[SQL1].[TU_CD]</expression></dataItem><dataItem name="Наименование ФО или Территории"><expression>[SQL1].[ROW_NAME]</expression></dataItem><dataItem name="ОКАТО"><expression>[SQL1].[OKATO1]</expression></dataItem><dataItem name="Сортировка"><expression>[SQL1].[STR_NUM]</expression></dataItem></selection>
+		<detailFilters><detailFilter><filterExpression>?выбранныйГод? &gt; 2022
+or
+?выбранныйГод? &gt;=2022 and ?Период?=&apos;год&apos;
+or 
+?выбранныйГод? &gt;=2022 and ?Период?=&apos;II полугодие&apos;
+or
+?выбранныйГод? &gt;=2022 and ?Период?=&apos;IV квартал&apos;
+or 
+?выбранныйГод? &gt;=2022 and ?Период?=&apos;октябрь&apos;
+or
+?выбранныйГод? &gt;=2022 and ?Период?=&apos;ноябрь&apos;
+or
+?выбранныйГод? &gt;=2022 and ?Период?=&apos;декабрь&apos;
+</filterExpression></detailFilter></detailFilters></query><query name="Строки итого">
+			<source>
+				
+			<queryOperation name="Соединение1" duplicates="preserve">
+			<queryRefs><queryRef refQuery="Строки"/><queryRef refQuery="Строки с 1.11.2022"/></queryRefs>
+			<projectionList autoGenerated="true"><queryItem name="Номер строки"/><queryItem name="Код ФО"/><queryItem name="Код ТУ"/><queryItem name="Наименование ФО или Территории"/><queryItem name="ОКАТО"/><queryItem name="Сортировка"/></projectionList>
+		</queryOperation></source>
+			<selection><dataItem name="Номер строки"><expression>[Соединение1].[Номер строки]</expression></dataItem><dataItem name="Код ФО"><expression>[Соединение1].[Код ФО]</expression></dataItem><dataItem name="Код ТУ"><expression>[Соединение1].[Код ТУ]</expression></dataItem><dataItem name="Наименование ФО или Территории"><expression>[Соединение1].[Наименование ФО или Территории]</expression></dataItem><dataItem name="ОКАТО"><expression>[Соединение1].[ОКАТО]</expression></dataItem><dataItem name="Сортировка"><expression>[Соединение1].[Сортировка]</expression></dataItem></selection>
+		</query><query name="НДО_Строки">
+			<source>
+				
+			<joinOperation>
+			<joinOperands>
+				<joinOperand cardinality="0:N"><queryRef refQuery="НДО"/></joinOperand>
+				<joinOperand cardinality="1:1"><queryRef refQuery="Строки итого"/></joinOperand>
+			</joinOperands>
+			<joinFilter>
+				<filterExpression>[НДО].[ОКАТО] = [Строки итого].[ОКАТО]</filterExpression>
+			</joinFilter>
+		</joinOperation></source>
+			<selection><dataItem name="Код ФО" aggregate="none" rollupAggregate="none"><expression>If([Код ТУ]&lt;&gt;&apos;&apos; or [Строки итого].[Наименование ФО или Территории]=&apos;в том числе:&apos;) then (&apos;&apos;) else ([Строки итого].[Код ФО])</expression></dataItem><dataItem name="Код ТУ" aggregate="none" rollupAggregate="none"><expression>[Строки итого].[Код ТУ]</expression></dataItem><dataItem name="Наименование ФО или Территории" aggregate="none" rollupAggregate="none"><expression>[Строки итого].[Наименование ФО или Территории]</expression></dataItem><dataItem name="ОКАТО" aggregate="none" rollupAggregate="none"><expression>[Строки итого].[ОКАТО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Сортировка"><expression>[Строки итого].[Сортировка]</expression></dataItem><dataItem name="Подраздел" aggregate="none" rollupAggregate="none"><expression>[НДО].[Подраздел]</expression></dataItem><dataItem name="Признак символа" aggregate="none" rollupAggregate="none"><expression>[НДО].[Признак символа]</expression></dataItem><dataItem name="Признак строки" aggregate="none" rollupAggregate="none"><expression>[НДО].[Признак строки]</expression></dataItem><dataItem name="Символ" aggregate="none" rollupAggregate="none"><expression>[НДО].[Символ]</expression></dataItem><dataItem name="Номер символа в отчете" aggregate="none" rollupAggregate="none"><expression>[НДО].[Номер символа в отчете]</expression></dataItem><dataItem name="Порядковый номер строки при сортировке в отчете" aggregate="none" rollupAggregate="none"><expression>[НДО].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem name="Группа" aggregate="none" rollupAggregate="none"><expression>[НДО].[Группа]</expression></dataItem><dataItem name="Подгруппа" aggregate="none" rollupAggregate="none"><expression>[НДО].[Подгруппа]</expression></dataItem><dataItem name="Сумма в отчет" label="(Символ\ ОКАТО)"><expression>[НДО].[Сумма в отчет]</expression></dataItem></selection>
+		</query><query name="Приход">
+			<source>
+				
+			<queryRef refQuery="НДО_Строки"/></source>
+			<selection autoSummary="false"><dataItem aggregate="none" rollupAggregate="none" name="Код ФО"><expression>[НДО_Строки].[Код ФО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Код ТУ"><expression>[НДО_Строки].[Код ТУ]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Наименование ФО или Территории"><expression>[НДО_Строки].[Наименование ФО или Территории]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="ОКАТО"><expression>[НДО_Строки].[ОКАТО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Сортировка"><expression>[НДО_Строки].[Сортировка]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Подраздел"><expression>[НДО_Строки].[Подраздел]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Признак символа" label="Символы"><expression>[НДО_Строки].[Признак символа]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Признак строки"><expression>[НДО_Строки].[Признак строки]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Символ"><expression>case 
+	when [НДО_Строки].[Символ] = &apos;ИтогоПриход&apos; then &apos;Итого по приходу&apos; 
+	when [НДО_Строки].[Символ] = &apos;БалансПриход&apos; then &apos;Баланс&apos; 
+	else [НДО_Строки].[Символ] 
+end</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Номер символа в отчете"><expression>[НДО_Строки].[Номер символа в отчете]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Порядковый номер строки при сортировке в отчете"><expression>[НДО_Строки].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Группа"><expression>[НДО_Строки].[Группа]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Подгруппа"><expression>[НДО_Строки].[Подгруппа]</expression></dataItem><dataItem name="Сумма в отчет"><expression>[НДО_Строки].[Сумма в отчет]</expression></dataItem></selection>
+		<detailFilters><detailFilter><filterExpression>[Группа] = 1 or [Группа] is null</filterExpression></detailFilter></detailFilters></query><query name="Расход">
+			<source>
+				
+			<queryRef refQuery="НДО_Строки"/></source>
+			<selection autoSummary="false"><dataItem aggregate="none" rollupAggregate="none" name="Код ФО"><expression>[НДО_Строки].[Код ФО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Код ТУ"><expression>[НДО_Строки].[Код ТУ]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Наименование ФО или Территории"><expression>[НДО_Строки].[Наименование ФО или Территории]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="ОКАТО"><expression>[НДО_Строки].[ОКАТО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Сортировка"><expression>[НДО_Строки].[Сортировка]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Подраздел"><expression>[НДО_Строки].[Подраздел]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Признак символа"><expression>[НДО_Строки].[Признак символа]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Признак строки"><expression>[НДО_Строки].[Признак строки]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Символ"><expression>case 
+	when [НДО_Строки].[Символ] = &apos;ИтогоРасход&apos; then &apos;Итого по расходу&apos; 
+	when [НДО_Строки].[Символ] = &apos;БалансРасход&apos; then &apos;Баланс&apos; 
+	else [НДО_Строки].[Символ] 
+end</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Номер символа в отчете"><expression>[НДО_Строки].[Номер символа в отчете]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Порядковый номер строки при сортировке в отчете"><expression>[НДО_Строки].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Группа"><expression>[НДО_Строки].[Группа]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Подгруппа"><expression>[НДО_Строки].[Подгруппа]</expression></dataItem><dataItem name="Сумма в отчет"><expression>[НДО_Строки].[Сумма в отчет]</expression></dataItem></selection>
+		<detailFilters><detailFilter><filterExpression>[Группа] = 2 or [Группа] is null</filterExpression></detailFilter></detailFilters></query><query name="Забаланс">
+			<source>
+				
+			<queryRef refQuery="НДО_Строки"/></source>
+			<selection><dataItem aggregate="none" rollupAggregate="none" name="Код ФО"><expression>[НДО_Строки].[Код ФО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Код ТУ"><expression>[НДО_Строки].[Код ТУ]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Наименование ФО или Территории"><expression>[НДО_Строки].[Наименование ФО или Территории]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="ОКАТО"><expression>[НДО_Строки].[ОКАТО]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Сортировка"><expression>[НДО_Строки].[Сортировка]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Подраздел"><expression>[НДО_Строки].[Подраздел]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Признак символа"><expression>[НДО_Строки].[Признак символа]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Признак строки"><expression>[НДО_Строки].[Признак строки]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Символ"><expression>[НДО_Строки].[Символ]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Номер символа в отчете"><expression>[НДО_Строки].[Номер символа в отчете]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Порядковый номер строки при сортировке в отчете"><expression>[НДО_Строки].[Порядковый номер строки при сортировке в отчете]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Группа"><expression>[НДО_Строки].[Группа]</expression></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Подгруппа"><expression>[НДО_Строки].[Подгруппа]</expression></dataItem><dataItem name="Сумма в отчет"><expression>[НДО_Строки].[Сумма в отчет]</expression></dataItem></selection>
+		<detailFilters><detailFilter><filterExpression>[Группа]=3 or [Группа] is null</filterExpression></detailFilter></detailFilters></query></queries><classStyles><classStyle name="cls3" label="Описание Заголовок поля"><CSS value="font-weight:bold"/></classStyle><classStyle name="cls1" label="Строка"><CSS value="background-color:white;border:1pt solid black"/></classStyle><classStyle name="cls2" label="Шапка"><CSS value="text-align:center;vertical-align:top"/></classStyle><classStyle name="GuidedLayoutPadding"><CSS value="padding-right:10px"/></classStyle><classStyle name="GuidedLayoutMargin"><CSS value="margin-bottom:10px"/></classStyle></classStyles><reportVariables><reportVariable type="string" name="CI_CHOICE_METHOD">
+			<reportExpression>ParamValue(&apos;sCIChoiceMethod&apos;)</reportExpression>
+		<variableValues><variableValue value="PICK_FROM_LIST"/><variableValue value="SEARCH"/></variableValues></reportVariable><reportVariable type="boolean" name="Не показывать">
+			<reportExpression>0</reportExpression>
+			<variableValues>
+				<variableValue value="1"/>
+			</variableValues>
+		</reportVariable><reportVariable type="string" name="PDF_EXCEL">
+			<reportExpression>CASE 
+WHEN ReportOutput() in (&apos;PDF&apos;; &apos;HTML&apos;)  
+THEN &apos;PDF&apos;
+ELSE &apos;EXCEL&apos;
+END</reportExpression>
+			<variableValues><variableValue value="PDF"/><variableValue value="EXCEL"/></variableValues></reportVariable>
+	</reportVariables><namedConditionalStyles><advancedConditionalStyle name="СучётомСбера"><styleCases><styleCase><reportCondition>ParamValue(&apos;Parameter1&apos;) contains &apos;неквлючать&apos;</reportCondition></styleCase></styleCases><styleDefault><style><CSS value="display:none"/></style></styleDefault></advancedConditionalStyle><advancedConditionalStyle name="СучётомРОСИНКАС"><styleCases><styleCase><reportCondition>ParamValue(&apos;Parameter1&apos;) contains &apos;РОСИНКАС&apos;</reportCondition></styleCase></styleCases><styleDefault><style><CSS value="display:none"/></style></styleDefault></advancedConditionalStyle><advancedConditionalStyle name="BoldHeader"><styleCases><styleCase><style><CSS value="font-weight:bold"/></style><reportCondition>[НДО_Строки].[Код ТУ] is null and [НДО_Строки].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="Hide100"><styleCases><styleCase><style><CSS value="visibility:hidden"/></style><reportCondition>[НДО_Строки].[Код ФО] = &apos;100&apos; or [НДО_Строки].[Наименование ФО или Территории] like &apos;%в том числе:&apos;</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="Hide100_2"><styleCases><styleCase><style><CSS value="visibility:hidden"/></style><reportCondition>[Расход].[Код ФО] = &apos;100&apos; 
+	or [Расход].[Наименование ФО или Территории] like &apos;%в том числе:&apos;
+	or [Расход].[Сортировка] in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="BoldHeader_2"><styleCases><styleCase><style><CSS value="font-weight:bold"/></style><reportCondition>[Расход].[Код ТУ] is null 
+	and [Расход].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;
+	and [Расход].[Сортировка] not in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="Hide100_3"><styleCases><styleCase><style><CSS value="visibility:hidden"/></style><reportCondition>[Забаланс].[Код ФО] = &apos;100&apos; 
+	or [Забаланс].[Наименование ФО или Территории] like &apos;%в том числе:&apos;
+	or [Забаланс].[Сортировка] in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="BoldHeader_3"><styleCases><styleCase><style><CSS value="font-weight:bold"/></style><reportCondition>[Забаланс].[Код ТУ] is null 
+	and [Забаланс].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;
+	and [Забаланс].[Сортировка] not in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="Hide100_1"><styleCases><styleCase><style><CSS value="visibility:hidden"/></style><reportCondition>[Приход].[Код ФО] = &apos;100&apos; 
+	or [Приход].[Наименование ФО или Территории] like &apos;%в том числе:&apos;
+	or [Приход].[Сортировка] in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="BoldHeader_1"><styleCases><styleCase><style><CSS value="font-weight:bold"/></style><reportCondition>[Приход].[Код ТУ] is null 
+	and [Приход].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;
+	and [Приход].[Сортировка] not in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="GrayBack_1"><styleCases><styleCase><style><CSS value="background-color:silver"/></style><reportCondition>[Приход].[Код ТУ] is null 
+	and [Приход].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;
+	and [Приход].[Сортировка] not in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="HideEmptyColumn_1"><styleCases><styleCase><style><CSS value="display:none"/></style><reportCondition>[Приход].[Признак символа] is null and [Приход].[Символ] is null</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="BoldGrayColumn_1"><styleCases><styleCase><style><CSS value="font-weight:bold;background-color:silver"/></style><reportCondition>[Приход].[Символ] in (&apos;Итого по приходу&apos;;&apos;Итого по расходу&apos;;&apos;Баланс&apos;)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="HideEmptyColumn_2"><styleCases><styleCase><style><CSS value="display:none"/></style><reportCondition>[Расход].[Признак символа] is null and [Расход].[Символ] is null</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="GrayBack_2"><styleCases><styleCase><style><CSS value="background-color:silver"/></style><reportCondition>[Расход].[Код ТУ] is null 
+	and [Расход].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;
+	and [Расход].[Сортировка] not in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="BoldGrayColumn_2"><styleCases><styleCase><style><CSS value="background-color:silver;font-weight:bold"/></style><reportCondition>[Расход].[Символ] in (&apos;Итого по приходу&apos;;&apos;Итого по расходу&apos;;&apos;Баланс&apos;)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="HideEmptyColumn_3"><styleCases><styleCase><style><CSS value="display:none"/></style><reportCondition>[Забаланс].[Признак символа] is null and [Забаланс].[Символ] is null</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="GrayBack_3"><styleCases><styleCase><style><CSS value="background-color:silver"/></style><reportCondition>[Забаланс].[Код ТУ] is null 
+	and [Забаланс].[Наименование ФО или Территории] not like &apos;%в том числе:&apos;
+	and [Забаланс].[Сортировка] not in (2600;5600)</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="MeasureType"><styleCases><styleCase><style><dataFormat><numberFormat decimalSize="1" scale="-3" useGrouping="true" groupDelimiter=" "/></dataFormat></style><reportCondition>ParamValue(&apos;ЕдиницыИзмерения&apos;) = &apos;2&apos;</reportCondition></styleCase><styleCase><style><dataFormat><numberFormat decimalSize="1" scale="-6" useGrouping="true" groupDelimiter=" "/></dataFormat></style><reportCondition>ParamValue(&apos;ЕдиницыИзмерения&apos;) = &apos;3&apos;</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="HideForYearPeriod"><styleCases><styleCase><style><CSS value="visibility:hidden;display:none"/></style><reportCondition>ParamDisplayValue(&apos;Период&apos;)=&apos;год&apos;</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="HideForNonYearPeriod"><styleCases><styleCase><style><CSS value="visibility:hidden;display:none"/></style><reportCondition>ParamDisplayValue(&apos;Период&apos;)&lt;&gt;&apos;год&apos;</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle><advancedConditionalStyle name="GrayBackNewTer"><styleCases><styleCase><style><CSS value="background-color:#F2F2F2"/></style><reportCondition>[Код ТУ] in (&apos;21&apos;;&apos;23&apos;;&apos;43&apos;;&apos;74&apos;)
+</reportCondition></styleCase></styleCases><styleDefault/></advancedConditionalStyle></namedConditionalStyles><reportName>09. Отчет НДО для Росстата</reportName></report>
